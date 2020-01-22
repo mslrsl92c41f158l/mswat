@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="Utf-8">
+<title>My Cv</title>
+</head>
+<body>
+	<h1>
+		<b>CURRICULUM VITAE</b>
+	</h1>
+	<img src="../pic/mypic.jpg" width="150" height="150" />
+
+
+	<h2>ROSSELLA MUSOLINO</h2>
+	<h3>nata a MESSINA il 01.03.1992</h3>
+
+	<fieldset>
+		<legend>An iframe by google maps</legend>
+		<iframe
+			src="http://maps.google.it/maps?q=duomo+milano&amp;output=embed">
+		</iframe>
+	</fieldset>
+
+
+	<h4>
+		&bull; <i> esperienze lavorative:</i>
+	</h4>
+	<p>
+		IT intern presso <a
+			href=" https://www.accenture.com/it-it?c=acn_it_brandgoogle_11017204&n=psgs_0819&gclid=CjwKCAiA35rxBRAWEiwADqB376b8Wqml69jOepzyq8_y8xdO54fe6t5G0WLLSSbAmVelLOGsjY0CmhoC19MQAvD_BwE">Accenture</a>
+	<p>
+	<hr>
+
+	<h4>
+		&bull; <i> percorso di studi:</i>
+	</h4>
+	<ol>
+		<li><a href="https://www.unime.it/it">Laurea magistrale in
+				giurisprudenza</a></li>
+		<li>Diploma di maturità scientifica</li>
+
+	</ol>
+
+	<hr>
+
+	<h4>
+		&bull; <i> tecnologie informatiche </i>
+	</h4>
+
+	<table>
+		<tr>
+			<th></th>
+			<th scope="col">Basic</th>
+			<th scope="col">Expert</th>
+		</tr>
+		<tr>
+			<th scope="row">Eclipse</th>
+			<td></td>
+			<td>X</td>
+		</tr>
+		<tr>
+			<th scope="row">MySql</th>
+			<td></td>
+			<td>X</td>
+		</tr>
+
+		<tr>
+			<th scope="row">Pacchetto office</th>
+			<td></td>
+			<td>X</td>
+		</tr>
+
+	</table>
+	<hr>
+
+	<h4>
+		&bull; <i> Lingue straniere </i>
+	</h4>
+
+	<table>
+		<tr>
+			<th></th>
+			<th scope="col">-Basic-</th>
+			<th scope="col">-Medium-</th>
+			<th scope="col">-Expert-</th>
+		</tr>
+		<tr>
+			<th scope="row">Inglese</th>
+			<td></td>
+			<td></td>
+			<td>X</td>
+		</tr>
+		<tr>
+			<th scope="row">Tedesco</th>
+			<td></td>
+			<td></td>
+			<td>X</td>
+		</tr>
+
+		<tr>
+			<th scope="row">Francese</th>
+			<td></td>
+			<td>X</td>
+			<td></td>
+		</tr>
+
+	</table>
+	<hr>
+	<hr>
+
+	<h4>Se interessato lascia un commento</h4>
+
+
+
+	<form action="/comment" method="post">
+		<div>
+			<label for="name">Name e cognome:</label> <input type="text"
+				id="name" name="sender">
+		</div>
+		
+		<div>
+			<label for="emailaddress">email:</label> <input type="text"
+				id="emailaddress" name="sendermail">
+		</div>
+		
+		
+		
+		
+		<div>
+			<label for="msg">Message:</label>
+			<textarea id="msg" name="message"></textarea>
+
+		</div>
+		
+		<div>
+			<h4>Specificare se si tratta di</h4>
+			<select name="tipo">
+				<option value="none">-</option>
+				<option value="Privato" selected>Privato</option>
+				<option value="Azienda">Azienda</option>
+				<option value="Agenzia">Agenzia</option>
+			</select>
+		</div>
+
+
+
+
+
+		<div>
+			<button type="submit">Send message</button>
+		</div>
+	</form>
+
+	<hr>
+
+	<h5>
+		<i>Esprimi il tuo livello di gradimento:</i>
+	</h5>
+
+
+	<input type="radio" id="fav1" name="fav" value="Poco" checked required>
+	<label for="favPoco">Poco interessante</label>
+	<input type="radio" id="fav2" name="fav" value="Indifferennte">
+	<label for="favIndifferente">Indifferente</label>
+	<input type="radio" id="fav3" name="fav" value="Molto interessante">
+	<label for="favMolto">Molto interessante</label>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
