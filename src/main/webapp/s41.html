@@ -14,11 +14,11 @@
     <textarea id="target" rows="20" cols="80"></textarea>
 
     <script type="text/javascript">
-        let target = document.getElementById('target');
+        let target = document.getElementById('target');// document è il foglio htm corrente quindi il c.d. DOM
 
         let data = [ 1, 'hello', [ true, 42.24 ] ];
-        target.value += data + '\n';
-        console.log(data.length);
+        target.value += data + '\n';    //value è una proprietà  dell'elemento target che è la mia textarea e indica che ciò che verrà scritto apparirà all'interno della textarea
+        console.log(data.length); 
 
         console.log(data[1], data[2][1]);
         data[2] = false;
@@ -29,7 +29,7 @@
 
         console.log(data.join(), data.toString());
 
-        target.value += 'pop: ' + data.pop() + '\n';
+        target.value += 'pop: ' + data.pop() + '\n'; // nella textarea metterò "pop" e poi ritorna quello che ho tolto cioeè [true, 42.24] che alla riga 24 ho dichiarato false. Quindi uscirà pop:false
         target.value += 'shift: ' + data.shift() + '\n';
         target.value += 'current status: ' + data + '\n';
         data.push('push1');
