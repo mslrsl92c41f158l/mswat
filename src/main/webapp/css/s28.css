@@ -1,44 +1,57 @@
 body {
-    background-color: gray;
+	background-color: #e2ebc2;
 }
 
-p {
-    font-family: fantasy;
+h1 {
+	font-family: pristina;
+	text-transform: uppercase;
 }
 
 #special {
-    color: violet;
+	color: #ff0080;
 }
 
 h1, h2, h3 {
-    color: yellow;
+	color: #008000;
+	font-family: pristina;
+}
+
+}
+h4, h5 {
+	color: #57a9b7;
+}
+
+h6 {
+	font-family: trajan;
+	font-weight: bold;
+	color: olive;
 }
 
 .myClass {
-    font-style: italic;
+	font-style: italic;
 }
 
 p.myClass {
-    color: blue;
+	color: #408080;
 }
 
 #paragraphId {
-    color: red;
+	color: #184e0c;
 }
 
 #blockId {
-    border: 3px solid #ff8000;
-    background-color: #ffff80;
+	border: 3px solid #408080;
+	background-color: #ccb88c;
 }
 
 .boldCls {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .itaCls {
-    font-style: italic;
+	font-style: italic;
 }
 
 .upperCls {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }

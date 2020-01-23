@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+
+
+body{
+background-color:#f0f0f4; 
+}
+h1 {
+	
+	color: blue;
+	font-family: pristina;
+	text-transform: uppercase;
+
+
+
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 3px solid #227c84;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+td {
+    background-color: #f1f4fe;
+}
